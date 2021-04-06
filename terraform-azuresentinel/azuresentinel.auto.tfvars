@@ -1,0 +1,7 @@
+environment            = "Prod"
+location               = "UK South"
+log_analytics_wsp_name = "sentinel-log-prod"
+project_service        = "Sentinel Strategic"
+retention_in_days      = "90"
+rg_name                = "sentinel-rg-prd"
+sku                    = "PerGB2018"
