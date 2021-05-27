@@ -1,0 +1,16 @@
+bastion_host_name               = "bastion-host"
+bastion_ip_config_name          = "configuration"
+bastion_subnet_address_prefixes = ["10.0.0.0/27"]
+bastion_subnet_name             = "AzureBastionSubnet"
+bastion_vnet_address_space      = ["10.0.0.0/24"]
+bastion_vnet_name               = "bastion-vnet"
+dev_test_lab_name               = "my-test-lab"
+environment                     = "stg"
+location                        = "UK South"
+project_service                 = "Azure Dev Test Labs."
+public_ip_allocation_method     = "Static"
+public_ip_name                  = "bastion_pip"
+public_ip_sku                   = "Standard"
+rg_name                         = "my-devtest-rg-stg"
+vm_subnet_prefixes              = ["10.0.0.32/27"]
+vm_subnet_name                  = "VMSubnet"
